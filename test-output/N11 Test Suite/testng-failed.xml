@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [N11 Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.learnautomation.com.learnautomation.selenium.SendEmail">
+        <methods>
+          <include name="launchGmail"/>
+          <include name="sendEmail"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.learnautomation.com.learnautomation.selenium.SendEmail -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [N11 Test Suite] -->

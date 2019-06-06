@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="N11 Test Suite">
+
+
+
+	<test name="LoginTest">
+
+
+		<!-- <parameter name ="url" value ="http://www.demo.guru99.com/V4/" /> 
+			<parameter name ="exPath" value ="E:\\Eclipse\\Mercurytours\\TestData\\Guru99DemoDataSheet1.xlsx"/> -->
+		<classes>
+			<class
+				name="com.learnautomation.com.learnautomation.selenium.SendEmail" />
+		</classes>
+	</test>
+</suite>
